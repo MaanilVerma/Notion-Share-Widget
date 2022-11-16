@@ -1,0 +1,26 @@
+.avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #6b7280;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.circle-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.square-avatar {
+  border-radius: 0.25rem;
+  overflow: hidden;
+  border: none;
+}
