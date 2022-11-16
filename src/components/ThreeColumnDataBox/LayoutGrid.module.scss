@@ -1,0 +1,31 @@
+.layout-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr;
+  justify-items: stretch;
+  align-items: center;
+  gap: calc(1rem * 0.5);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.title {
+  line-height: 1.5rem;
+  color: grey;
+}
+
+.description {
+  line-height: 1.25rem;
+  font-size: 16px;
+  color: grey;
+}
