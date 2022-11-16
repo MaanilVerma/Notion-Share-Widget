@@ -1,0 +1,40 @@
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: calc(1.5 * 0.5);
+  border: none;
+  border-radius: 0.25rem;
+  line-height: 1.25rem;
+  font-size: 0.25rem;
+  color: #6b7280;
+  cursor: pointer;
+  background: inherit;
+  padding: 0.25rem 0.5rem;
+  white-space: nowrap;
+}
+
+.primary-button {
+  background: #111827;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.25rem 1rem;
+}
+
+.secondary-button {
+  background: #ffffff;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+  border-radius: calc(0.25rem * 0.75);
+  padding: 0.25rem 0.75rem;
+  line-height: 1rem;
+}
+
+.tag-button {
+  background: #e5e7eb;
+  color: #111827;
+  padding: 0.25rem 0.5rem;
+}
